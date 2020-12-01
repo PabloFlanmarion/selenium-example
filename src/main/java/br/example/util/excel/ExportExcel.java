@@ -1,3 +1,5 @@
+package br.example.util.excel;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -15,6 +17,13 @@ import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.VerticalAlignment;
 
+import br.example.domain.Product;
+
+/**
+ * 
+ * @author Pablo
+ *
+ */
 public class ExportExcel {
 	public static void main(String[] args) {
 		HSSFWorkbook workbook = new HSSFWorkbook();
@@ -36,7 +45,7 @@ public class ExportExcel {
 
 		CellStyle headerStyle = workbook.createCellStyle();
 		headerStyle.setFillForegroundColor(IndexedColors.GREY_25_PERCENT.getIndex());
-		
+
 		headerStyle.setAlignment(HorizontalAlignment.CENTER);
 		headerStyle.setVerticalAlignment(VerticalAlignment.CENTER);
 

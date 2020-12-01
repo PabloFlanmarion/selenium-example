@@ -1,4 +1,4 @@
-package br.example;
+package br.example.util.takescreenshot;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,3 +1,4 @@
+package br.example.domain;
 
 public class Product {
 

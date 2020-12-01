@@ -1,4 +1,4 @@
-package br.example;
+package br.example.util.wai;
 
 import java.time.Duration;
 import java.util.NoSuchElementException;

@@ -1,4 +1,4 @@
-package br.example;
+package br.example.base;
 
 import java.io.IOException;
 import java.util.Set;
@@ -10,6 +10,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Wait;
+
+import br.example.util.takescreenshot.SeleniumTakeScreenshotUtil;
 
 public class SeleniumMain {
 
